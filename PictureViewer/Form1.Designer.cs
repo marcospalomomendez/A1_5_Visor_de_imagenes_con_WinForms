@@ -100,9 +100,10 @@
             // 
             // showButton
             // 
-            this.showButton.Location = new System.Drawing.Point(353, 3);
+            this.showButton.AutoSize = true;
+            this.showButton.Location = new System.Drawing.Point(351, 3);
             this.showButton.Name = "showButton";
-            this.showButton.Size = new System.Drawing.Size(108, 23);
+            this.showButton.Size = new System.Drawing.Size(110, 23);
             this.showButton.TabIndex = 0;
             this.showButton.Text = "Mostrar una imagen";
             this.showButton.UseVisualStyleBackColor = true;
@@ -110,7 +111,8 @@
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(246, 3);
+            this.clearButton.AutoSize = true;
+            this.clearButton.Location = new System.Drawing.Point(244, 3);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(101, 23);
             this.clearButton.TabIndex = 1;
@@ -120,7 +122,8 @@
             // 
             // backgroundButton
             // 
-            this.backgroundButton.Location = new System.Drawing.Point(102, 3);
+            this.backgroundButton.AutoSize = true;
+            this.backgroundButton.Location = new System.Drawing.Point(100, 3);
             this.backgroundButton.Name = "backgroundButton";
             this.backgroundButton.Size = new System.Drawing.Size(138, 23);
             this.backgroundButton.TabIndex = 2;
@@ -130,7 +133,8 @@
             // 
             // closeButton
             // 
-            this.closeButton.Location = new System.Drawing.Point(32, 3);
+            this.closeButton.AutoSize = true;
+            this.closeButton.Location = new System.Drawing.Point(30, 3);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(64, 23);
             this.closeButton.TabIndex = 3;
@@ -158,6 +162,7 @@
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
